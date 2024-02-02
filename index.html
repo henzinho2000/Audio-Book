@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autho" content="Henzo B. dos Santos"> 
+    <title>áudioBook</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="music-container">
+        <img class="foto" src="./images/dom-casmurro.jpeg" alt="Capa do Livro Dom Casmurro">
+        <audio id="audio-capitulo" src="./books/dom-casmurro/1.mp3"></audio>
+
+        <div id="informacoes-faixa">
+            <div id="capitulo"></div>
+            <div id="nome-author">Machado de Assis</div>
+        </div>
+
+        <div id="container-botoes">
+            <button id="anterior" class="bi bi-skip-start-circle"></button>
+            <button id="play-pause" class="bi bi-play-circle"></button>
+            <button id="proximo" class="bi bi-skip-end-circle"></button>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
